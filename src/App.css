@@ -1,5 +1,64 @@
 .App {
-  text-align: center;
+  text-align: left;
+  margin: 20px 20%;
+}
+
+a.active {
+  text-decoration: underline;
+  color: #ebebeb;
+}
+
+a.chosen {
+  text-decoration: none;
+  color: #ebebeb;
+  font-weight: 500;
+}
+
+a.link {
+  color: #ebebeb;
+  text-decoration: underline;
+}
+
+a.link:hover {
+  color: #ebebeb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a.link:visited {
+  color: #8f8e8e;
+  text-decoration: underline;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.name {
+  font-size: 30px;
+  line-height: 100px;
+}
+
+ul.menu {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+
+ul.menu li {
+  list-style-type: none;
+  font-size: 16px;
+  margin: 0;
+  padding: 0 10px;
+  vertical-align: middle;
+}
+
+ul.menu li a {
+  line-height: 100px;
 }
 
 .App-logo {
@@ -13,16 +72,7 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+
 
 .App-link {
   color: #61dafb;
@@ -35,4 +85,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.header3Link {
+  color: #ebebeb;
+  font-size: 24px;
+  text-decoration: none;
+  font-weight: 500;
 }
