@@ -5,8 +5,6 @@ import Resume from './Resume';
 import Header from './Header';
 import { Outlet } from 'react-router-dom';
 
-
-
 function Layout() {
   return (
     <div className="App">
