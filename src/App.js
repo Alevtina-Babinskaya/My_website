@@ -10,8 +10,8 @@ function Layout() {
     <div className="App">
       <div className="row">
         <Header/>
-        <Outlet/>
       </div>
+      <Outlet/>
     </div>
   );
 }
@@ -22,8 +22,9 @@ function App() {
       <Routes>
         <Route path='/' element={ <Layout/> }> 
           <Route index element={ <Portfolio/> }/>
-          <Route path='resume' element={ <Resume/> } />
-          <Route path="contacts" element={<div>Contacts</div>} />
+          <Route path='/resume' element={ <Resume/> } />
+          <Route path="/contacts" element={<div>Contacts</div>} />
+          <Route path='notes' element={<div>Notes</div>} />
         </Route>
       </Routes>
     </BrowserRouter>

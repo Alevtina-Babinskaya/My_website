@@ -3,11 +3,6 @@
   margin: 20px 20%;
 }
 
-a.active {
-  text-decoration: underline;
-  color: #ebebeb;
-}
-
 a.chosen {
   text-decoration: none;
   color: #ebebeb;
@@ -59,6 +54,22 @@ ul.menu li {
 
 ul.menu li a {
   line-height: 100px;
+  text-decoration: underline;
+  color: #ebebeb;
+}
+
+ul.menu li a:hover {
+  text-decoration: none;
+}
+
+ul.menu li a.active {
+  text-decoration: none;
+  font-weight: 600;
+  color: #09A1A1;
+}
+
+ul.menu li a.active:hover {
+  cursor: default;
 }
 
 .App-logo {

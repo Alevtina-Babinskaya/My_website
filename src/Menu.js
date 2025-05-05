@@ -12,8 +12,8 @@ function Menu ({ items, onSelect }) {
   return (
     <ul className="menu">
       {menuItems.map((item) => (
-        <li key={item.id} className="menu-item" onClick={() => onSelect(item)}>
-          <NavLink href="{item.path}" className="active">
+        <li key={item.id} className="menu-item">
+          <NavLink to={item.path} className="navLink">
           {item.name} 
           </NavLink>
         </li>
