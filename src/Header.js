@@ -5,7 +5,7 @@ import avatar from './avatar.jpg';
 const Header = () => {
     return (
         <>
-            <div className="row">
+            <div className="row" style={{flex:1}}>
                 <div style={{paddingRight: "20px"}}>
                     <img src={avatar} className="avatar" alt="photo" />
                 </div>
