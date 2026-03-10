@@ -7,12 +7,12 @@ function Portfolio() {
       <h1>Portfolio</h1>
       
       <div className="portfolio_section" id="case1">
-          <p className='header3Link'><img className="logo"/><a href='https://mediaboost.com/'>MediaBoost</a></p> 
+          <p className='header3Link'><a href='https://mediaboost.com/'><img src='/img/mediaboost/logo.png' className="logo"/> </a></p> 
+          <p className="description">Media Boost is an advertising service that allows small businesses create and run ads in social media. My task here was to design profile pages for MediaBoost customers.</p>
           <div>
             <img className="cover" src='/img/mediaboost/dashboard.png' alt="Media Boost Personal Information" />
             <img className="cover" src='/img/mediaboost/Campaigns@2x.png'  alt="Media Boost Campaigns" />
             <img className="cover" src='/img/mediaboost/start_campaign.png'  alt="Media Boost Start Campaign" /></div>
-          <p className="description">Media Boost is an advertising service that allows small businesses create and run ads in social media. My task here was to design profile pages for MediaBoost customers.</p>
           {location.hash === "#case1" ? 
           <div>
           <p>I started with business interviews to define the main functionality and approximate user scenarios.</p>
@@ -24,7 +24,7 @@ function Portfolio() {
           <a className="link" href="#case1">More</a>}
       </div>
       <div className="portfolio_section" id="case2">
-          <p className='header3Link'><img className="logo" alt="logo" /><a href='https://mediaboost.com/'>Time Timer</a></p> 
+          <p className='header3Link'><img className="logo" alt="logo" src="/img/timeTimer/logo.webp" height={40}/><a href='https://mediaboost.com/'>Time Timer</a></p> 
           <img className="cover" src='/img/mediaboost/dashboard.png' width='100%' alt=""/>
           <p className="description">Media Boost is an advertising service that allows small businesses create and run ads in social media. My task here was to design profile pages for MediaBoost customers.</p>
           <p>Media Boost is an advertising service that allows small businesses create and run ads in social media. My task here was to design profile pages for MediaBoost customers.</p>
